@@ -1,2 +1,3 @@
 # UniPascalPractice
-Guess what?
+
+Задачи по языку Pascal с их решениями
