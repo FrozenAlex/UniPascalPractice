@@ -4,7 +4,7 @@ program z1;
     f: file of real;
     count: Integer;
 begin
-    assign (f, 'Input.txt');
+    assign (f, 'Input.txt'); // Указать файл
     reset(f); // Перевод указателя файла в начало
     sum:= 0; // Сумма инициализируется нулем
     count:=0; // Количество чисел
