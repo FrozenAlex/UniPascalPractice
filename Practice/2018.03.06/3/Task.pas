@@ -10,8 +10,10 @@ begin
     readln(n);
     Assign(f1,'source.bin');
     Rewrite(f1);
+
     for i:=0 to n do write(f1, i); // Заполнить файл цифрами
 
+    // Решето Эратосфена
     for i:=2 to n do begin
         seek(f1,i); // перевод каретки на позицию
         read(f1,t); // считывание i-го элемента
